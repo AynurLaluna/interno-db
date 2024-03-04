@@ -1,9 +1,459 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "reviews": [
+    {
+      "id": 1,
+      "fullName": "Natasha Mith",
+      "from": "New York, USA",
+      "text": "Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.",
+      "imageUrl": "./images/person1.svg"
+    },
+    {
+      "id": 2,
+      "fullName": "Raymond Gallario",
+      "from": "Sydney, Australia",
+      "text": "Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been scrambled it to make a type book.",
+      "imageUrl": "./images/person2.svg"
+    },
+    {
+      "id": 3,
+      "fullName": "Benny Roll",
+      "from": "Rotterdam, Netherlands",
+      "text": "Lorem Ipsum is simply dummy text of the typesetting industry. Ipsum has been.",
+      "imageUrl": "./images/person3.svg"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+
+  "projects_homepage": [
+    {
+      "id": 1,
+      "imageUrl": "./images/decor1.svg",
+      "title": "Modern Kitchen",
+      "description": "Decor / Architecture"
+    },
+    {
+      "id": 2,
+      "imageUrl": "./images/decor2.svg",
+      "title": "Modern Kitchen",
+      "description": "Decor / Architecture"
+    },
+    {
+      "id": 3,
+      "imageUrl": "./images/decor3.svg",
+      "title": "Modern Kitchen",
+      "description": "Decor / Architecture"
+    },
+    {
+      "id": 4,
+      "imageUrl": "./images/decor4.svg",
+      "title": "Modern Kitchen",
+      "description": "Decor / Architecture"
+    }
   ],
-  "profile": { "name": "typicode" }
+
+  "brands": [
+    {
+      "id": 1,
+      "iconUrl": "./brandLogos/01.svg"
+    },
+    {
+      "id": 2,
+      "iconUrl": "./brandLogos/02.svg"
+    },
+    {
+      "id": 3,
+      "iconUrl": "./brandLogos/03.svg"
+    },
+    {
+      "id": 4,
+      "iconUrl": "./brandLogos/04.svg"
+    },
+    {
+      "id": 5,
+      "iconUrl": "./brandLogos/05.svg"
+    }
+  ],
+
+  "articles_news": [
+    {
+      "id": 1,
+      "imageUrl": "./images/articleCover1.svg",
+      "title": "Let’s Get Solution For Building Construction Work",
+      "text": "26 December, 2022"
+    },
+    {
+      "id": 2,
+      "imageUrl": "./images/articleCover2.svg",
+      "title": "Low Cost Latest Invented Interior Designing Ideas.",
+      "text": "22 December, 2022"
+    },
+    {
+      "id": 3,
+      "imageUrl": "./images/articleCover3.svg",
+      "title": "Best For Any Office & Business Interior Solution",
+      "text": "13 December, 2022"
+    }
+  ],
+
+  "about_work": [
+    {
+      "id": 1,
+      "title": "What We Do",
+      "text": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal",
+      "imageUrl": "./images/about1.svg"
+    },
+    {
+      "id": 2,
+      "title": "The End Result",
+      "text": "It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal",
+      "imageUrl": "./images/about2.svg"
+    }
+  ],
+
+  "team_of_4s": [
+    {
+      "id": 1,
+      "image": "./images/lucas.svg",
+      "fullName": "Lucas Reveiro",
+      "from": "Design, Australia",
+      "contact":"+1 (378) 400-1234",
+      "email": "lucas@email.com"
+    },
+    {
+      "id": 2,
+      "imageUrl": "./images/natasha.svg",
+      "fullName": "Natasha Julie",
+      "from": "Design, Australia",
+      "contact": "+1 (378) 420-1234",
+      "email": "julie@email.com"
+    },
+    {
+      "id": 3,
+      "imageUrl": "./images/nora.svg",
+      "fullName": "Nora Owen",
+      "from": "Design, Australia",
+      "contact": "+1 (378) 407-1234",
+      "email": "nora@email.com"
+    },
+    {
+      "id": 4,
+      "imageUrl": "./images/john.svg",
+      "fullName": "John Smith",
+      "from": "Design, Australia",
+      "contact": "+1 (378) 500-1234",
+      "email": "smith@email.com"
+    }
+  ],
+
+  
+
+  "services": [
+    {
+      "id": 1,
+      "header": "Project Plan",
+      "text": "There are many variations of the passages of lorem Ipsum from available, majority."
+    },
+    {
+      "id": 2,
+      "header": "Interior Work",
+      "text": "There are many variations of the passages of lorem Ipsum from available, majority."
+    },
+    {
+      "id": 3,
+      "header": "Retail Design",
+      "text": "There are many variations of the passages of lorem Ipsum from available, majority."
+    },
+    {
+      "id": 4,
+      "header": "2d/3d Art Works",
+      "text": "There are many variations of the passages of lorem Ipsum from available, majority."
+    },
+    {
+      "id": 5,
+      "header": "Interior Work",
+      "text": "There are many variations of the passages of lorem Ipsum from available, majority."
+    },
+    {
+      "id": 6,
+      "header": "Decoration Work",
+      "text": "There are many variations of the passages of lorem Ipsum from available, majority."
+    }
+  ],
+
+  "single_services": [
+    {
+      "id": "service1",
+      "title": "Use of Interior",
+      "listItem": [
+        "We provide high quality design services.",
+        "Project on time and latest design.",
+        "Scientific skills for getting a better result.",
+        "Renovation benefit of service.",
+        "We are confident about our projects."
+      ]
+    },
+    {
+      "id": "service2",
+      "title": "Make An Art",
+      "listItem": [
+        "We provide high quality design services.",
+        "Project on time and latest design.",
+        "Scientific skills for getting a better result.",
+        "Renovation benefit of service.",
+        "We are confident about our projects."
+      ]
+    }
+  ],
+
+  "our_work": [
+    {
+      "id": 1,
+      "iconUrl": "./icons/icon1.png",
+      "num": "01",
+      "title": "Concept & Details",
+      "description": "It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting industry.",
+      "imageUrl": "./images/image1.svg"
+    },
+    {
+      "id": 2,
+      "iconUrl": "./icons/icon2.png",
+      "num": "02",
+      "title": "Idea for Work",
+      "description": "It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting industry.",
+      "imageUrl": "./images/image2.svg"
+    },
+    {
+      "id": 3,
+      "iconUrl": "./icons/icon3.png",
+      "num": "03",
+      "title": "Design",
+      "description": "It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting industry.",
+      "imageUrl": "./images/image3.svg"
+    },
+    {
+      "id": 4,
+      "iconUrl": "./icons/icon4.png",
+      "num": "04",
+      "title": "Perfection",
+      "description": "It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting industry.",
+      "imageUrl": "./images/image4.svg"
+    }
+  ],
+
+  "pricing_cards": [
+    {
+      "id": 1,
+      "title": "Design advices",
+      "price": 29,
+      "pricing_plan": "/month",
+      "list": [
+        "General living space advices",
+        "Renovation advices",
+        "Interior design advices",
+        "Furniture reorganization",
+        "Up to 5 hours meetings"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Complete interior",
+      "price": 39,
+      "pricing_plan": "/month",
+      "list": [
+        "Complete home redesign",
+        "Interior and exterior works",
+        "Modular interior planning",
+        "Kitchen design",
+        "Garages organization"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Furniture design",
+      "price": 59,
+      "pricing_plan": "/month",
+      "list": [
+        "Furniture for living room",
+        "Furniture refurbishment",
+        "Sofas and armchairs",
+        "Tables and chairs",
+        "Kitchens"
+      ]
+    }
+  ],
+
+  "room_navbar": [
+    {
+      "id": 1,
+      "link": "Bathroom",
+      "to": "/bathroom"
+    },
+    {
+      "id": 2,
+      "link": "Bedroom",
+      "to": "/bedroom"
+    },
+    {
+      "id": 1,
+      "link": "Kitchen",
+      "to": "/kitchen"
+    },
+    {
+      "id": 1,
+      "link": "Living Area",
+      "to": "/living"
+    }
+  ],
+
+  "bedroom_arch": [
+    {
+      "id": 1,
+      "imageUrl": "./images/bed1.svg"
+    },
+    {
+      "id": 2,
+      "imageUrl": "./images/bed2.svg"
+    },
+    {
+      "id": 3,
+      "imageUrl": "./images/bed3.svg"
+    },
+    {
+      "id": 4,
+      "imageUrl": "./images/bed4.svg"
+    },
+    {
+      "id": 5,
+      "imageUrl": "./images/bed5.svg"
+    },
+    {
+      "id": 6,
+      "imageUrl": "./images/bed6.svg"
+    },
+    {
+      "id": 7,
+      "imageUrl": "./images/bed7.svg"
+    },
+    {
+      "id": 8,
+      "imageUrl": "./images/bed8.svg"
+    }
+  ],
+
+  "article_section": [
+    {
+      "id": 1,
+      "imageUrl": "./images/articleCover1.svg",
+      "title": "Let’s Get Solution For Building Construction Work",
+      "text": "26 December, 2022"
+    },
+    {
+      "id": 2,
+      "imageUrl": "./images/articleCover2.svg",
+      "title": "Low Cost Latest Invented Interior Designing Ideas.",
+      "text": "22 December, 2022"
+    },
+    {
+      "id": 3,
+      "imageUrl": "./images/articleCover3.svg",
+      "title": "Best For Any Office & Business Interior Solution",
+      "text": "13 December, 2022"
+    },
+    {
+      "id": 4,
+      "imageUrl": "./images/articleCover4.svg",
+      "title": "Low Cost Latest Invented Interior Designing Ideas.",
+      "text": "26 December, 2022"
+    },
+    {
+      "id": 5,
+      "imageUrl": "./images/articleCover5.svg",
+      "title": "Best For Any Office & Business Interior Solution",
+      "text": "26 December, 2022"
+    },
+    {
+      "id": 6,
+      "imageUrl": "./images/articleCover6.svg",
+      "title": "Let’s Get Solution For Building Construction Work",
+      "text": "26 December, 2022"
+    }
+  ],
+
+  "our_team": [
+    {
+      "id": 1,
+      "imageUrl": "./images/lucas.svg",
+      "fullName": "Lucas Levi",
+      "info": "Design, Australia"
+    },
+    {
+      "id": 2,
+      "imageUrl": "./images/natasha.svg",
+      "fullName": "Natasha Julie",
+      "info": "Design, Australia"
+    },
+    {
+      "id": 3,
+      "imageUrl": "./images/john.svg",
+      "fullName": "John Smith",
+      "info": "Design, Australia"
+    },
+    {
+      "id": 4,
+      "imageUrl": "./images/nora.svg",
+      "fullName": "Nora Owen",
+      "info": "Design, Australia"
+    },
+    {
+      "id": 5,
+      "imageUrl": "./images/rayn.svg",
+      "fullName": "Ryan Carter",
+      "info": "Design, Australia"
+    },
+    {
+      "id": 6,
+      "imageUrl": "./images/sofia.svg",
+      "fullName": "Sofia Jackson",
+      "info": "Design, Australia"
+    },
+    {
+      "id": 7,
+      "imageUrl": "./images/james.svg",
+      "fullName": "James Bling",
+      "info": "Design, Australia"
+    },
+    {
+      "id": 8,
+      "imageUrl": "./images/gianna.svg",
+      "fullName": "Gianna Mateo",
+      "info": "Design, Australia"
+    }
+  ],
+
+  "bedrooms_info_card": [
+    {
+      "id": 1,
+      "title": "Client",
+      "listItem": "Your client name"
+    },
+    {
+      "id": 2,
+      "title": "Category",
+      "listItem": "Interiors"
+    },
+    {
+      "id": 3,
+      "title": "Tags",
+      "listItem": "Interior, Home"
+    },
+    {
+      "id": 4,
+      "title": "Date",
+      "listItem": "Date 23.02.2022"
+    },
+    {
+      "id": 5,
+      "title": "Link",
+      "listItem": "Link example.com"
+    }
+  ]
 }
